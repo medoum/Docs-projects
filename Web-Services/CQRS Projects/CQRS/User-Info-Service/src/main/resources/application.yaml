@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    stream:
+      function:
+        definition: userEventConsumer;followEventConsumer;tweetEventConsumer;likeEventConsumer
+      bindings:
+        userEventConsumer-in-0:
+          destination: user-event
+        followEventConsumer-in-0:
+          destination: follow-event
+        tweetEventConsumer-in-0:
+          destination: tweet-event
+        likeEventConsumer-in-0:
+          destination: like-event

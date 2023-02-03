@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CQRS.iml" filepath="$PROJECT_DIR$/CQRS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DTOs/DTOs.iml" filepath="$PROJECT_DIR$/DTOs/DTOs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Follow-Service/Follow-Service.iml" filepath="$PROJECT_DIR$/Follow-Service/Follow-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Like-Service/Like-Service.iml" filepath="$PROJECT_DIR$/Like-Service/Like-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tweet-Service/Tweet-Service.iml" filepath="$PROJECT_DIR$/Tweet-Service/Tweet-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/User-Info-Service/User-Info-Service.iml" filepath="$PROJECT_DIR$/User-Info-Service/User-Info-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/User-Service/User-Service.iml" filepath="$PROJECT_DIR$/User-Service/User-Service.iml" />
+    </modules>
+  </component>
+</project>

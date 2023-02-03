@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    stream:
+      function:
+        definition: followSupplier
+      bindings:
+        followSupplier-out-0:
+          destination: follow-event

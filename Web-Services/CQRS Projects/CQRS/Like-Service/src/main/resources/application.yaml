@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    stream:
+      function:
+        definition: likeSupplier
+      bindings:
+        likeSupplier-out-0:
+          destination: like-event

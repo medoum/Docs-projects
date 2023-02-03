@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="CQRS" />
+        <module name="User-Service" />
+        <module name="Tweet" />
+        <module name="User-Info-Service" />
+        <module name="Follow-Service" />
+        <module name="DTOs" />
+        <module name="Tweet-Service" />
+        <module name="Like-Service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CQRS" target="11" />
+      <module name="DTOs" target="11" />
+      <module name="Follow-Service" target="11" />
+      <module name="Like-Service" target="11" />
+      <module name="Tweet" target="11" />
+      <module name="Tweet-Service" target="11" />
+      <module name="User-Info-Service" target="11" />
+      <module name="User-Service" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CQRS" options="-parameters" />
+      <module name="DTOs" options="-parameters" />
+      <module name="Follow-Service" options="-parameters" />
+      <module name="Like-Service" options="-parameters" />
+      <module name="Tweet" options="-parameters" />
+      <module name="Tweet-Service" options="-parameters" />
+      <module name="User-Info-Service" options="-parameters" />
+      <module name="User-Service" options="-parameters" />
+    </option>
+  </component>
+</project>

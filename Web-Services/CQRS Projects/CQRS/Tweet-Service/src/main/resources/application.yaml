@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    stream:
+      function:
+        definition: tweetSupplier
+      bindings:
+        tweetSupplier-out-0:
+          destination: tweet-event

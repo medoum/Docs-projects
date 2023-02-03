@@ -1,0 +1,57 @@
+#type Utilisateur {
+#    id: ID!
+#    username: String!
+#    email: String!
+#    password: String!
+#    adresseLivraison: Adresse
+#    adresseFacturation: Adresse
+#}
+#
+#type Adresse {
+#    ville: String!
+#    pays: String!
+#    codePostal: String!
+#    adresse: String!
+#}
+#
+#input UtilisateurInput {
+#    username: String!
+#    email: String!
+#    password: String!
+#    adresseLivraison: AdresseInput
+#    adresseFacturation: AdresseInput
+#}
+#
+#input AdresseInput {
+#    ville: String!
+#    pays: String!
+#    codePostal: String!
+#    adresse: String!
+#}
+#
+#type Query {
+#    utilisateurs: [Utilisateur]
+#    utilisateur(id: ID!): Utilisateur
+#}
+#
+#type Mutation {
+#    createUtilisateur(utilisateur: UtilisateurInput!): Utilisateur
+#    updateUtilisateur(id: ID!, utilisateur: UtilisateurInput!): Utilisateur
+#    deleteUtilisateur(id: ID!): Boolean
+#}
+type Query {
+    produitList : [Produit]
+    produitById(id: String): Produit
+}
+
+type Produit {
+    id : String,
+    nom : String,
+    prix : Float,
+    quantite : Int,
+    category: Category,
+}
+type Category {
+    id: Float,
+    nom: String
+}
